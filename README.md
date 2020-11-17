@@ -47,6 +47,10 @@ path.
 * For evaluating *anti*-sterotypical translations, run:
 
         ../scripts/evaluate_all_languages.sh ../data/aggregates/en_anti.txt  path/to/output/folder/
+        
+* For evaluating general second entity accuracy scores, run:
+
+        ../scripts/evaluate_all_languages.sh ../data/aggregates/en_secondary.txt  path/to/output/folder/
 
 ## Adding an MT system
 1. Translate the file in `data/aggregates/en.txt` to the languages in our evaluation method.
