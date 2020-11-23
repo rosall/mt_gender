@@ -22,7 +22,9 @@ from languages.pymorph_support import PymorphPredictor
 from languages.semitic_languages import HebrewPredictor, ArabicPredictor
 from languages.morfeusz_support import MorfeuszPredictor
 from evaluate import evaluate_bias
-from languages.czech import CzechPredictor
+
+
+#from languages.czech import CzechPredictor
 #=-----
 
 LANGAUGE_PREDICTOR = {
