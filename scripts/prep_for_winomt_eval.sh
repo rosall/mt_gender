@@ -8,7 +8,7 @@ OUTFILE=$1
 LANG=$2
 WINOMT_DIR=$3
 OUTDIR=todecode
-REF_WITH_DELIM="${BASH_SOURCE%/*}/../data_shared/winomt.withdelim.en"
+REF_WITH_DELIM="../data/prep_for_eval/winomt.withdelim.en"
 eval_script="$WINOMT_DIR/scripts/evaluate_all_languages.sh"
 
 sed -ri "s/mt_systems=\(.*\)/mt_systems=\(\"$OUTDIR\"\)/g" $eval_script
